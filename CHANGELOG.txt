@@ -1,5 +1,10 @@
 # JRC-PPDB-OPEN Changelog
 
+
+## version 1.0.EM
+Version modified for the EnerMaps project.
+See README.md.
+
 ## version 1.0
 - Corrections
 - Added water technologies and water consumption factors (see the JRC report "Projected fresh water use from the European energy sector" for details: https://europa.eu/!vV63Qw )

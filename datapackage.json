@@ -1,14 +1,14 @@
 {
     "profile": "tabular-data-package",
     "name": "jrc-ppdb-open",
-      "title": "JRC Open Power-plants database",
+      "title": "JRC Open Power-plants database - EnerMaps version",
     "keywords": [
         "power plants", "energy", "database", "electricity", "emissions"
       ],
       
       "homepage": "https://zenodo.org/record/3266808",
       "description": "The JRC-PPDB-OPEN is primarily based on a collection of all the information published by ENTSO-E on the European power plants at unit level. This information was extended, improved, and where possible corrected using information contained in open datasets published by WRI Powerwatch , Global energy observatory , FRESNA  and the EEA. The JRC-PPDB-OPEN database is a first attempt towards a more detailed and coherent, albeit still incomplete, dataset of European power plants. Further work to expand and improve the information contained therein is called for. To this extend, and in order to facilitate the future involvement of third parties in such efforts, the associations between records in the different datasets (linkage) are included.",
-      "version": "1.00",
+      "version": "1.00.EM",
       "contributors": [
         {
           "title": "K. Kanellopoulos",
@@ -25,6 +25,11 @@
         {
           "title": "A. Bocin Dimitriu",
           "role": "author"
+        },
+        {
+          "title": "G. Peronato",
+          "email": "gperonato@idiap.ch",
+          "role": "wrangler"
         }
       ],
       "licenses": [
