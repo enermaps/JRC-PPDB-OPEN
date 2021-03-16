@@ -54,10 +54,7 @@
               "name": "eic_g",
               "type": "string",
               "format": "default",
-              "description": "EIC (Energy Identification Code) for the generation unit",
-              "constraints": {
-                "pattern": "^[a-zA-Z0-9-]{16}$"
-                }
+              "description": "EIC (Energy Identification Code) for the generation unit"
             },
             {
               "name": "name_p",
@@ -154,7 +151,7 @@
               "format": "default",
               "description": "Year of decommissioning"
             },
-			{
+      {
               "name": "water_type",
               "type": "string",
               "format": "default",
@@ -163,15 +160,15 @@
                   "enum": ["Freshwater", "Seawater", "None"]
               }
             },
-			{
+      {
               "name": "cooling_type",
               "type": "string",
               "format": "default",
               "description": "Cooling technology",
               "constraints":{
-                  "enum": ["Air cooling", "Once-through", "Mechanical Draught Tower", "Natural Draught Tower", "No cooling"]
+                  "enum": ["Air Cooling", "Once-through", "Mechanical Draught Tower", "Natural Draught Tower", "No Cooling"]
               }
-            },
+            }
           ]
         }
       },
@@ -209,19 +206,13 @@
               "name": "WRI_id",
               "type": "string",
               "format": "default",
-              "description": "ID in WRI Power Watch",
-              "constraints": {
-                "pattern": "^[A-Z0-9]{10}$"
-                }
+              "description": "ID in WRI Power Watch"
             },
             {
               "name": "GEO_id",
               "type": "string",
               "format": "default",
-              "description": "ID in Global Energy Observatory",
-              "constraints": {
-                  "pattern": "^[0-9]{5,6}$"
-              }
+              "description": "ID in Global Energy Observatory"
             },
             {
               "name": "fresna_id",
@@ -251,10 +242,7 @@
               "name": "eic_g",
               "type": "string",
               "format": "default",
-              "description": "EIC (Energy Identification Code) for the generation unit",
-              "constraints": {
-                "pattern": "^[a-zA-Z0-9-]{16}$"
-            }
+              "description": "EIC (Energy Identification Code) for the generation unit"
             },
             {
               "name": "min_load",
@@ -282,8 +270,8 @@
               "format": "default",
               "description": "Ramp-down capability, % of installed net capacity per minute",
               "constraints": {
-                "minimum": 0,
-                "maximum": 1
+                "minimum": -1,
+                "maximum": 0
             }
             },
             {
