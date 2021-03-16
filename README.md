@@ -24,4 +24,4 @@ License: [Creative Commons Attribution 4.0 International](https://creativecommon
 
 - Removed extra fields `water_withdrawal`,`water_consumption` not present in the metadata
 
-See the diff to check the changes on the `datapackage.json` and the script `mod.py` for those on the data.
+See the [diff](https://github.com/enermaps/JRC-PPDB-OPEN/commit/1fbcf401270d06d15668793a7847741d1d1f8193#diff-85b9548466eda4168e93923c9559cce6492b416971e27ed0f0b07e102bb11419) to check the changes on the `datapackage.json` and the script `mod.py` for those on the data.
